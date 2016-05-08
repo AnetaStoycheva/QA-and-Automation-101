@@ -1,7 +1,5 @@
 ------------------------------
-
-<br />**Title of the Bug (about 10 words):**
-<br />**Description:**
+<br />**Description of the Bug:**
 <br />**Component of the Product:**
 <br />**Version of the Product:**
 <br />**Version of the OS:**
@@ -14,10 +12,9 @@
 <br />*Additional Information (screenshots, urls, etc.):*
 
 ------------------------------
-
 <br />*Priority:*
 <br />*Assign to:*
-
+<br />
 <br />*How it Affects Clients:*
 <br />*Proposals to fix the bug:*
 
