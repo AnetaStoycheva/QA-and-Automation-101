@@ -1,0 +1,7 @@
+language: java
+
+script:
+  - javac -cp QA-Java/src:QA-Java/lib/junit.jar:QA-Java/lib/org.hamcrest.core_1.3.0.v201303031735.jar QA-Java/src/Calculator.java QA-Java/src/CalculatorTest.java
+
+after_success:
+  - java -cp QA-Java/src:QA-Java/lib/junit.jar:QA-Java/lib/org.hamcrest.core_1.3.0.v201303031735.jar org.junit.runner.JUnitCore CalculatorTest
